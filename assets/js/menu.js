@@ -5,7 +5,7 @@
 
 // Base de Datos de Respaldo (Mock Fallback) si falla la conexión a Google Sheets o red
 const MOCK_MENU_DATA = [
-  { categoria: "Pizzas Tradicionales", nombre: "Margherita Especial", descripcion: "Salsa de tomate pomodoro, mozzarella de búfala Campana DOP, albahaca fresca y aceite de oliva virgen extra.", precio: "$8.50", disponible: "SI" },
+  { categoria: "Pizzas Tradicionales", nombre: "Margherita Especial", descripcion: "Salsa de tomate pomodoro, mozzarella de búfala Campana DOP, albahaca fresca y aceite de oliva virgen extra.", precio: "$10.50", disponible: "SI" },
   { categoria: "Pizzas Tradicionales", nombre: "Marinara de la Bahía", descripcion: "Salsa de tomate pomodoro, ajo de Las Pedroñeras laminado, orégano de Sicilia, boquerones del Cantábrico y aceite de oliva.", precio: "$7.50", disponible: "SI" },
   { categoria: "Pizzas Tradicionales", nombre: "Diavola Tradizionale", descripcion: "Salsa de tomate pomodoro, mozzarella fior di latte, salami picante calabrés y albahaca.", precio: "$9.50", disponible: "SI" },
   { categoria: "Pizzas de Autor", nombre: "Pugliese de Cabra", descripcion: "Queso de cabra artesanal, cebolla caramelizada al vino tinto de la casa, mozzarella, rúcula y reducción balsámica.", precio: "$11.50", disponible: "SI" },
