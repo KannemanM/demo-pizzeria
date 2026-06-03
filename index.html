@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Menú digital artesanal - Pizzería artesanal. Ingredientes frescos, masa madre y cocción a la leña.">
+  
+  <title>Menú Digital | Pizzería Artesanal</title>
+
+  <!-- SEO and Resource Hints -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="/public/favicon.ico">
+
+  <!-- CSS Principal -->
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+
+  <!-- Header: Branding & Metadata -->
+  <header class="main-header">
+    <div class="header-container">
+      <span class="restaurant-tag">Masa Madre & Horno de Leña</span>
+      <h1 class="restaurant-logo">Bella Napoli</h1>
+      <p class="restaurant-description">Pizzas napolitanas artesanales elaboradas con fermentación lenta de 48 horas e ingredientes de denominación de origen protegida.</p>
+      <div class="restaurant-meta">
+        <span class="meta-item">
+          <svg class="meta-icon" viewBox="0 0 24 24" width="14" height="14"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+          Calle de la Leña 12, Madrid
+        </span>
+        <span class="meta-item">
+          <svg class="meta-icon" viewBox="0 0 24 24" width="14" height="14"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
+          Mar - Dom: 19:30 - 23:30
+        </span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Navigation Slider for Categories -->
+  <nav class="category-slider-container">
+    <div class="category-slider-wrapper">
+      <div class="scroll-indicator scroll-indicator-left" aria-hidden="true"></div>
+      <nav class="category-slider" id="category-slider" aria-label="Categorías del menú">
+        <!-- Generado dinámicamente -->
+        <span class="category-skeleton"></span>
+        <span class="category-skeleton"></span>
+        <span class="category-skeleton"></span>
+      </nav>
+      <div class="scroll-indicator scroll-indicator-right" aria-hidden="true"></div>
+    </div>
+  </nav>
+
+  <!-- Main Menu Container -->
+  <main id="menu-container" class="menu-container" data-csv-url="menu.csv">
+    <!-- Skeleton Screen para carga progresiva tipográfica -->
+    <div class="skeleton-screen" aria-hidden="true">
+      <div class="skeleton-group">
+        <div class="skeleton-title"></div>
+        <div class="skeleton-item">
+          <div class="skeleton-header"><span class="skeleton-name"></span><span class="skeleton-price"></span></div>
+          <div class="skeleton-text"></div>
+        </div>
+        <div class="skeleton-item">
+          <div class="skeleton-header"><span class="skeleton-name"></span><span class="skeleton-price"></span></div>
+          <div class="skeleton-text"></div>
+        </div>
+      </div>
+      <div class="skeleton-group">
+        <div class="skeleton-title"></div>
+        <div class="skeleton-item">
+          <div class="skeleton-header"><span class="skeleton-name"></span><span class="skeleton-price"></span></div>
+          <div class="skeleton-text"></div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="footer-container">
+      <p class="footer-allergy-info">* Si tienes alguna alergia o intolerancia alimentaria, por favor infórmalo a nuestro personal antes de realizar tu pedido.</p>
+      <p class="footer-copyright">&copy; 2026 Bella Napoli Pizzería. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Fixed Call to Action Button for Mobile -->
+  <a href="tel:+34910000000" class="btn-call-action" id="btn-call-action" aria-label="Llamar para realizar un pedido">
+    <svg class="btn-call-icon" viewBox="0 0 24 24" width="20" height="20">
+      <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+    </svg>
+    <span>Llamar para Pedir</span>
+  </a>
+
+  <!-- JavaScript principal cargado de forma diferida -->
+  <script defer src="/assets/js/menu.js"></script>
+</body>
+</html>

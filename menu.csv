@@ -1,0 +1,13 @@
+categoria,nombre,descripcion,precio,disponible
+Pizzas Tradicionales,Margherita Especial,"Salsa de tomate pomodoro, mozzarella de búfala Campana DOP, albahaca fresca y aceite de oliva virgen extra.",$8.50,SI
+Pizzas Tradicionales,Marinara de la Bahía,"Salsa de tomate pomodoro, ajo de Las Pedroñeras laminado, orégano de Sicilia, boquerones del Cantábrico y aceite de oliva.",$7.50,SI
+Pizzas Tradicionales,Diavola Tradizionale,"Salsa de tomate pomodoro, mozzarella fior di latte, salami picante calabrés y albahaca.",$9.50,SI
+Pizzas de Autor,Pugliese de Cabra,"Queso de cabra artesanal, cebolla caramelizada al vino tinto de la casa, mozzarella, rúcula y reducción balsámica.",$11.50,SI
+Pizzas de Autor,Tartufata e Funghi,"Crema de trufa negra, champiñones silvestres salteados, mozzarella fior di latte y lascas de parmigiano reggiano 24 meses.",$13.00,SI
+Pizzas de Autor,Calzone di Napoli,"Pizza doblada rellena de ricota cremosa, salami napolitano, jamón cocido, mozzarella y pimienta negra recién molida.",$11.00,SI
+Pizzas de Autor,Quattro Formaggi Bianca,"Base blanca de mozzarella, gorgonzola dulce DOP, provolone ahumado, taleggio y nueces picadas.",$12.00,NO
+Bebidas,Agua de Manantial con Gas,Botella de vidrio de agua mineral natural gasificada de manantial italiano (750ml).,$2.80,SI
+Bebidas,Cerveza Artesanal Birra Moretti,Cerveza lager italiana clásica, cuerpo medio y aroma a lúpulo dorado.,$3.50,SI
+Bebidas,Vino Tinto Chianti Classico,Copa de vino tinto toscano con cuerpo y notas de frutos rojos maduros.,$4.50,SI
+Postres,Tiramisú della Nonna,"Tiramisú casero con crema de mascarpone, café espresso robusto, licor Amaretto y cacao puro espolvoreado.",$5.50,SI
+Postres,Panna Cotta al Limoncello,"Panna cotta cremosa con reducción de limoncello artesanal y ralladura de limón fresco.",$4.80,SI
